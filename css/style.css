@@ -1,6 +1,30 @@
-
-
-.container{
-    width: 90%;
-    margin: 0 auto;
+/* header */
+/* nav */
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
+.nav_right {
+  padding-top: 10px;
+}
+.nav_left {
+  display: flex;
+  height: 6vh;
+  background-color: #f4f7fb;
+}
+.nav_left ul {
+  display: flex;
+  list-style-type: none;
+
+  gap: 20px;
+  padding: 0 10em;
+}
+.nav-images {
+  padding-top: 10px;
+}
+.list-home {
+  background-color: #eea539;
+  color: antiquewhite;
+}
+/* hero */
+
