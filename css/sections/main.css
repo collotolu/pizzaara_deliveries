@@ -1,5 +1,33 @@
-.main__h3{
+.main__h3 {
+  display: inline-flex;
+  padding: 0 4em;
+  
+ 
+  
+}
+.main__h3 li {
+  padding-right: 200px;
+  list-style-type: none;
+  font-weight: 700;
+}
+.span__section{
+    color: #eea539;
+}
+.main__h3 li:hover{
+    border-bottom: 5px solid #eea539;
+    color: #eea539;
+    cursor: pointer;
+}
+.line{
+    border-bottom: 1px solid black
+}
+.div__menu{
+    text-align: center;
+    margin-top: 150px;
+    padding-right: 400px;
+    margin-bottom: 90px;
+}
+.pizza__image{
     display: inline-flex;
-    padding: 0 3em;
-    
+    padding-left: 80px;
 }
