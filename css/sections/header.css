@@ -1,0 +1,48 @@
+/* header */
+/* nav */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.nav_left {
+  display: flex;
+
+}
+.nav_left ul {
+  display: flex;
+  list-style-type: none;
+
+  gap: 40px;
+  padding: 0 20em;
+  justify-content: space-between;
+  
+}
+.nav_left li{
+    padding: 0 30px;
+}
+
+.image-1 {
+ padding-right: 2em; 
+}
+.list-home {
+
+  color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    
+}
+.nav__section{
+    height: 8vh;
+    background-color: #f4f7fb;
+    padding: 20px 0;
+}
+li{
+    cursor: pointer;
+}
+ul:hover{
+    background-color: #eea539;
+    
+}
