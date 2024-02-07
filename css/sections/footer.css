@@ -2,10 +2,27 @@
     display: flex;
     background-color: black;
     color: white;
-    height: 50vh;
+    height: 30vh;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 8em 10em;
+    font-size: 20px;
 }
 .footer__btn{
+    background-color:  #eea539;
+    border: none;
+    padding: 40px;
+    border-radius: 3px;
+    color:white;
+}
+.input{
+    border: none;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.footer__section ol li{
+    list-style-type: none;
+    padding: 15px 0;
     
 }
