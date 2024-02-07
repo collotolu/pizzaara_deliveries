@@ -1,6 +1,7 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/main.css");
+@import url("sections/footer.css");
 @media screen and (max-width:768){
     
 }
