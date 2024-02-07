@@ -3,4 +3,9 @@
     background-color: black;
     color: white;
     height: 50vh;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer__btn{
+    
 }
