@@ -4,3 +4,8 @@
 @import url("sections/footer.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
