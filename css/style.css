@@ -2,6 +2,5 @@
 @import url("sections/hero.css");
 @import url("sections/main.css");
 @import url("sections/footer.css");
-@medsia screen and (max-width:768){
-    
-}
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
