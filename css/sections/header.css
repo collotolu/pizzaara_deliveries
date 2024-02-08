@@ -42,7 +42,7 @@ h1{
 li{
     cursor: pointer;
 }
-ul:hover{
+ul li:hover{
     background-color: #eea539;
-    
+    padding: 10px;
 }
