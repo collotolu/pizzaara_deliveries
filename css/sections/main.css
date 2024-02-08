@@ -15,6 +15,9 @@
   color: #eea539;
   cursor: pointer;
 }
+.main__h3{
+  border-bottom: 2px solid black;
+}
 .line {
   border-bottom: 1px solid black;
 }
@@ -51,7 +54,8 @@
   margin-top: -5em;
 }
 .view__more {
-  padding: 15px 50px;
+
+  padding: 25px 70px;
   background-color: #eea539;
   border: none;
   border-radius: 5px;
@@ -80,11 +84,14 @@
   
 }
 .variables__content {
+  background-color: white;
   box-sizing: border-box;
   border-radius: 4px;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px white;
   border: none;
   padding: 20px 10px;
+  display: flex;
+  margin:60px 40px;
 }
 /* .variables__content img{
 font-size: 0.8em;
