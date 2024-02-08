@@ -14,22 +14,32 @@
     padding: 40px;
     border-radius: 3px;
     color:white;
+    
 }
 .input{
     border: none;
-    padding: 40px;
+    padding: 40px 100px;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .footer__section ol li{
     list-style-type: none;
     padding: 15px 0;
     
 }
-.footer__section img{
+.footer__section h3{
     padding-top: 40px;
 }
-.footer__list:hover{
+.footer__list li{
+cursor: pointer;
 
-
+}
+.footer__list li:hover{
+    color: #eea539;
+}
+.form__flex{
+    margin-top: 90px;
+}
+.footer__section img{
+    margin: 20px 0;
 }
