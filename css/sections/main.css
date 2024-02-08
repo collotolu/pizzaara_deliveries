@@ -74,7 +74,7 @@
   height: 87vh;
 }
 .variables img {
-  display: flex;
+  
   background-color: black;
   border-radius: 50px;
   
@@ -92,9 +92,7 @@ background-size: 50%;
 height: 50px;
 width: 32px;
 } */
-.variables__content img{
-  display: flex;
-}
+
 .icons__text{
   display: flex;
   justify-content: space-between;
