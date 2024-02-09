@@ -137,6 +137,6 @@ width: 32px;
     flex:1;
   }
   .view__more{
-   
+   display: none;
   }
 }
