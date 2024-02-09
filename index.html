@@ -13,37 +13,41 @@
   <body>
     <!-- header -->
     <header>
-      <div class="nav__section">
+      <nav class="nav">
         <div class="container">
-          <nav class="nav_left">
-            <div class="nav_right">
+          <div class="nav__container">
+            <div class="nav__right">
               <img src="images/logo.svg" />
             </div>
-            <div class="nav_center">
+            <div class="nav__center">
               <ul>
-                <li class="list-home">Home</li>
+                <li>Home</li>
                 <li>About Us</li>
                 <li>Shop</li>
                 <li>Contact</li>
               </ul>
             </div>
-            <div class="nav-images">
+            
+            <div class="nav__images">
               <img
                 src="images/shopping-cart.png"
                 width="30px"
-                class="image-1"
               />
               <img src="images/avatar.png" width="30px" />
             </div>
-          </nav>
+            <div class="bar__icon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
         </div>
-      </div>
+      </nav>
       <!-- hero -->
       <div class="hero">
         <div class="container">
-          <div class="hero-part">
-            <div class="hero-content" width="50%">
-              <div class="content">
+          <div class="hero__part" >
+            <div class="hero__content">
+              <div class="hero__content__container">
+              <!-- <div class="content"> -->
                 <h3>Easy way to order your food</h3>
                 <h1>
                   Choosing<span class="Healthy"> Healthy</span> &<span
@@ -60,7 +64,8 @@
                 <form>
                   <div class="form__flex">
                     <div class="form__border">
-                      <i class="fa-solid fa-magnifying-glass"></i>
+                       <i class="fa-solid fa-magnifying-glass"></i>
+                      
 
                       <input placeholder="Find pizza Type" class="icons" />
                     </div>
@@ -68,26 +73,39 @@
                       <button class="btn btn-color">Search</button>
                     </div>
                   </div>
+                  </div>
                 </form>
-              </div>
-              <div class="__images">
+              <!-- </div> -->
+              <div class="hero__images">
                 <div class="background">
+                  <div>
                   <img src="images/cutlery.png" width="50px" />
+                </div>
+                <div>
                   <p>500+</p>
                   <p>Restaurant</p>
                 </div>
+                </div>
                 <div class="background">
+                  <div>
                   <img src="images/fresh-pizza.png" width="50px" />
+                </div>
+                <div>
                   <p>200+</p>
                   <p>Pizza Vareities</p>
                 </div>
+              </div>
                 <div class="background">
+<div>
                   <img src="images/star.png" width="50px" />
+                </div>
+                <div>
                   <p>(7.8)</p>
                   <p>10k Reviews</p>
                 </div>
               </div>
             </div>
+          </div>
             <div class="hero-pizza">
               <div>
                 <img src="images/hero-pizza.png" />
@@ -105,6 +123,7 @@
           </div>
         </div>
       </div>
+          </div>
     </header>
     <!-- main -->
     <div class="container">
@@ -125,7 +144,7 @@
           <div>
             <img src="images/barbecue-chicken-pizza.png" />
           </div>
-          <div class="examples">
+          <div class="examples__main">
             <p>BBQ Chicken Pizza</p>
             <p>(Cheese with Shrimp)</p>
             <p>Ksh. 1500</p>
@@ -136,7 +155,7 @@
           <div>
             <img src="images/tandoori-chicken.png" width="350px" />
           </div>
-          <div class="examples">
+          <div class="examples__main">
             <p>Tandoori Chicken Pizza</p>
             <p>(Cheese with Shrimp)</p>
             <p>Ksh. 1500</p>
@@ -147,7 +166,7 @@
           <div>
             <img src="images/chicken-kebab.png" width="470px" />
           </div>
-          <div class="examples">
+          <div class="examples__main">
             <p>Chicken Kebab Pizza</p>
             <p>(Cheese with Shrimp)</p>
             <p>Ksh. 1500</p>

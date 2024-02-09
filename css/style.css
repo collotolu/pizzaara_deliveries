@@ -9,3 +9,9 @@
   margin: 0;
   font-family: "Kanit", sans-serif;
 }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
